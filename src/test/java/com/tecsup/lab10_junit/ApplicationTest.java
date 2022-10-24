@@ -17,5 +17,15 @@ public class ApplicationTest {
 		Application app = new Application();		
 		assertEquals(1 , app.restar(4, 3));		
 	}
+	@Test
+	public void testMultiplicar() {
+		Application app = new Application();		
+		assertEquals(1 , app.multiplicar(4, 3));		
+	}
+	@Test
+	public void testDividir() {
+		Application app = new Application();		
+		assertEquals(1 , app.dividir(4, 3));		
+	}
 
 }

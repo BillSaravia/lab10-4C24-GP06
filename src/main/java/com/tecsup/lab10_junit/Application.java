@@ -8,6 +8,8 @@ public class Application {
 		Application app = new Application();	
 		int sum = app.sumar(4,5);		
 		int res = app.restar(4,5);
+		int multi = app.multiplicar(4,5);
+		int divi = app.dividir(4,5);
 	}
 
 	public  int restar(int i, int j) {
@@ -18,5 +20,13 @@ public class Application {
 	public  int sumar(int i, int j) {
 		// TODO Auto-generated method stub
 		return i+j;
+	}
+	public  int multiplicar(int i, int j) {
+		// TODO Auto-generated method stub
+		return i*j;
+	}
+	public  int dividir(int i, int j) {
+		// TODO Auto-generated method stub
+		return i/j;
 	}
 }
