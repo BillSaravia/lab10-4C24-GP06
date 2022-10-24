@@ -20,7 +20,7 @@ public class ApplicationTest {
 	@Test
 	public void testMultiplicar() {
 		Application app = new Application();		
-		assertEquals(1 , app.multiplicar(4, 3));		
+		assertEquals(1 , app.multi(4, 3));		
 	}
 	@Test
 	public void testDividir() {
