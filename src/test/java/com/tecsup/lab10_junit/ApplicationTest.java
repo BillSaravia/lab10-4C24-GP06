@@ -25,7 +25,7 @@ public class ApplicationTest {
 	@Test
 	public void testDividir() {
 		Application app = new Application();		
-		assertEquals(1 , app.dividir(4, 3));		
+		assertEquals(1 , app.divi(4, 3));		
 	}
 
 }

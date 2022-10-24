@@ -9,7 +9,7 @@ public class Application {
 		int sum = app.sumar(4,5);		
 		int res = app.restar(4,5);
 		int multi = app.multi(4,5);
-		int divi = app.dividir(4,5);
+		int divi = app.divi(4,5);
 	}
 
 	public  int restar(int i, int j) {
@@ -25,7 +25,7 @@ public class Application {
 		// TODO Auto-generated method stub
 		return i*j;
 	}
-	public  int dividir(int i, int j) {
+	public  int divi(int i, int j) {
 		// TODO Auto-generated method stub
 		return i/j;
 	}
